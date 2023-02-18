@@ -1,5 +1,4 @@
-export const Option = (props) => {
-  const { name, icon } = props;
+const Option = ({ name, icon }) => {
   return (
     <a className='option-container' href={`./${name}`}>
       <i>{icon}</i>
@@ -7,3 +6,5 @@ export const Option = (props) => {
     </a>
   );
 };
+
+export default Option;
