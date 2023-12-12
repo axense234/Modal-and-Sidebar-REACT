@@ -12,13 +12,13 @@ const Modal = ({ modalRef, setShowModal, show }) => {
       timeout = setTimeout(() => {
         modal.style.transform = "scale(1)";
         modal.style.opacity = "1";
-      }, 200);
+      }, 10);
     } else {
       modal.style.transform = "scale(0)";
       modal.style.opacity = "0";
       timeout = setTimeout(() => {
         modal.style.display = "none";
-      }, 20);
+      }, 10);
     }
     return () => {
       clearTimeout(timeout);

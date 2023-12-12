@@ -56,6 +56,13 @@ button:hover {
   padding: 1rem 2rem;
   font-size: 1.5rem;
   border-radius: 0.75rem;
+  border: 1px solid black;
+
+  transition: transform 0.2s ease-in;
+}
+
+.main-content-container > button:hover{
+  transform: scale(1.2);
 }
 
 .sidebar-container {
@@ -80,12 +87,12 @@ button:hover {
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  padding: 0 2rem;
+  padding: 1rem 2rem;
   margin-top: 1rem;
 }
 
 .sidebar-container__title > h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   letter-spacing: 3px;
 }
 
@@ -116,6 +123,9 @@ button:hover {
   color: black;
   gap: 2rem;
   padding: 0.5rem;
+  padding-left: 2rem;
+
+  transition: transform 0.1s ease-in;
 }
 
 .option-container:hover {
@@ -125,13 +135,13 @@ button:hover {
 }
 
 .option-container > p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 100%;
 }
 
 .option-container > i {
   color: black;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .sidebar-container__social-media {
@@ -163,7 +173,6 @@ button:hover {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
-  border: 1px solid black;
 
   transition: transform 0.2s, opacity 0.2s;
 }
@@ -173,7 +182,6 @@ button:hover {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  border: 3px solid black;
   width: 30%;
   height: 30%;
   border-radius: 0.5rem;

@@ -31,6 +31,8 @@ npm start
 
 ## **Version History**
 
+- 0.3
+  - Analyzed the code to gather to-do tasks and changed the styling.
 - 0.2
   - Improved react logic/how the website looks by a lot.
   - See [commit change](https://github.com/axense234/Modal-and-Sidebar-REACT/commits/master) or See [release history](https://github.com/axense234/Modal-and-Sidebar-REACT/releases)
