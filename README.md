@@ -11,6 +11,8 @@ A simple React Project that focuses on the basics of react by creating a modal a
 ### Dependencies
 
 - Check package.json for details.
+- Git
+- Docker(optional)
 
 ### Installing
 
@@ -20,9 +22,20 @@ git clone https://github.com/axense234/Modal-and-Sidebar-REACT.git
 
 ### Executing program
 
+- **Using NPM**
+
 ```
 npm install
 npm start
+```
+
+- **Using Docker**
+
+```
+docker build -t modal-and-sidebar-react:0.3.0 .
+docker stop modal-and-sidebar-react-app
+docker rm modal-and-sidebar-react-app
+docker run -d -p 3000:3000 --name modal-and-sidebar-react-app modal-and-sidebar-react:0.3.0
 ```
 
 ## **Authors**
